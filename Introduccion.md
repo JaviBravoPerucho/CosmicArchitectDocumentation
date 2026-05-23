@@ -1,4 +1,3 @@
-# Cosmic Architect Plugin
 
 Este plugin permite generar planetas procedimentalmente con sistemas de ruido avanzados, LOD dinámico y soporte para colisiones. Además proporciona un sistema de interacciones gravitatorias y órbitas customizables.
 
