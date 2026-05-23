@@ -1,12 +1,14 @@
-# Summary
+# Table of contents
 
-* [Cosmic Architect](Introduccion.md)
+* [Cosmic Architect](README.md)
 
 ## Guías de inicio
+
 * [Crea tu primer Planeta](GetStartedPlanet.md)
 * [Crea un Sistema Planetario](GetStartedSystem.md)
 
 ## Explicación de clases y componentes
+
 * [Cosmic Planet](CosmicPlanet.md)
 * [Ruido](Ruido.md)
 * [Clipmap](Clipmap.md)

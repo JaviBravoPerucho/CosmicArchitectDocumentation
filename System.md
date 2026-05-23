@@ -3,6 +3,7 @@
 Es el actor que permite generar sistemas planetarios. Los sistemas siempre tienen una estrella central con una luz direccional, y los planetas se crean alrededor de ella. Para generarlos se producen parámetros aleatorios dentro de rangos razonables, y en función de los parámetros se clasifican los planetas como gigante de gas, asteroide o planeta telúrico (parecido a la Tierra). Se establecen valores de ruido aleatorios dentro de un rango, y valores como la distancia a la estrella y el radio del planeta también.
 
 Esta es la estructura de datos que se utiliza para clasificar cada planeta (`FPlanetClassification`):
+
 * `EPlanetType Type` (GasGiant, Telluric o AsteroidBelt)
 * `bool bHasOcean`
 * `float OceanSeaLevel`
@@ -11,6 +12,7 @@ Esta es la estructura de datos que se utiliza para clasificar cada planeta (`FPl
 * `int32 MaxMoons`
 
 **Parámetros que se pueden modificar en el System Generator:**
+
 * **Seed:** Semilla para la generación de números aleatorios (Determinismo).
 * **OrbitSpeedMultiplier:** Multiplicador global de velocidad para todos los periodos orbitales del sistema. 1.0 = velocidad normal. Valores mayores aceleran todas las órbitas proporcionalmente.
 * **bIsSimulatingOrbits:** Indica si la simulación orbital en el editor está activa. Este valor se modifica con el botón StartOrbitSimulation y StopOrbitSimulation.
@@ -24,4 +26,4 @@ Esta es la estructura de datos que se utiliza para clasificar cada planeta (`FPl
 
 Para los planetas se establece un número aleatorio de satélites (lunas) dentro de un rango, para los gigantes de gas, de 1 a 6, y para los rocosos de 0 a 3. Estos satélites se generan con una órbita alrededor del planeta.
 
-![System](Imagenes/systemcenital.jpg)
+![System](.gitbook/assets/systemcenital.jpg)
