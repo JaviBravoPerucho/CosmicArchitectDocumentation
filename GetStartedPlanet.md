@@ -1,6 +1,6 @@
 # Crea tu primer Planeta
 
-En nuestro canal de YT se puede ver este tutorial (sin comentarios), pero recomendamos seguir los pasos de la web, para entender mejor el proceso.
+En nuestro canal de YT se puede ver este tutorial (sin comentario), pero recomendamos seguir los pasos de la web, para entender mejor el proceso.
 
 [https://www.youtube.com/@CosmicArchitect-w2n](https://www.youtube.com/@CosmicArchitect-w2n)&#x20;
 
