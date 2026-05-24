@@ -5,8 +5,8 @@
 ## Guías de inicio
 
 * [Crea tu primer Planeta](GetStartedPlanet.md)
-* [Crea un Sistema Planetario](GetStartedSystem.md)
-* [Escenas demostración](guias-de-inicio/escenas-demostracion.md)
+* [Escenas de demostración](guias-de-inicio/escenas-de-demostracion.md)
+* [Builds](guias-de-inicio/builds.md)
 
 ## Explicación de clases y componentes
 

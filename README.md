@@ -6,7 +6,6 @@ Este plugin permite generar planetas procedimentalmente con sistemas de ruido av
 
 #### Características
 
-* Generación procedimental de planetas y sistemas planetarios
 * Compatible con Unreal Engine \[5.7]
 * Extensible
 * Optimizado para rendimiento

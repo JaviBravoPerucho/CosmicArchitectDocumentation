@@ -1,4 +1,4 @@
-# Escenas demostración
+# Escenas de demostración
 
 El plugin ofrece 3 escenas ya configuradas para probar ciertos aspectos del plugin.
 
@@ -30,7 +30,7 @@ Escena SolarSystem Demo:
 
 ### System Generator
 
-Por último encontarás una escena con un CosmicSystemGenerator, en esta puedes iterar rapidamente creando sistemas planetarios con tan solo pulsar un botón. Selecciona el actor CosmicSystemGenerator en el Outliner y busca la sección `Actions` en los detalles.
+Por último encontrarás una escena con un CosmicSystemGenerator, en esta puedes iterar rapidamente creando sistemas planetarios con tan solo pulsar un botón. Selecciona el actor CosmicSystemGenerator en el Outliner y busca la sección `Actions` en los detalles.
 
 <figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
