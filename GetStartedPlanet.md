@@ -30,16 +30,20 @@ Vuelve a poner el modo Lit, y busca el apartado Materials del planeta. Seleccion
 
 ### 4. Ruido
 
-Antes de continuar deja puesto el material CosmicMoon o Cosmic Earth. Verás un apartado en Planet llamado Noise que contiene Noise Class, con esto configuraremos la forma del terreno. En una carpeta de tu proyecto del Content Browser haz click derecho, `Cosmic Architect` -> `Default Noise Settings..`. Llámalo `NoisePlanet`. Ahora arrástralo al atributo Noise Class de tu planeta. Ahora configuremos tus Noise Settings, doble click y en la pestaña Layer Parameters cambia los parámetros:
+Antes de continuar deja puesto el material CosmicMoon o Cosmic Earth. Verás un apartado en Planet llamado Noise que contiene Noise Class, con esto configuraremos la forma del terreno. En una carpeta de tu proyecto del Content Browser haz click derecho, `Cosmic Architect` -> `Default Noise Settings`
+
+<p align="center"> <img src=".gitbook/assets/crear_ruido.jpg" alt="" data-size="original"></p>
+
+Llámalo `NoisePlanet`. Ahora arrástralo al atributo Noise Class de tu planeta. Ahora configuremos tus Noise Settings, doble click y en la pestaña Layer Parameters cambia los parámetros:
 
 * **Frequency:** entre 2 y 5. Esto definirá la frecuencia de regiones altas en tu mundo.
 * **Amplitude:** 5.000 y 10.000. Esto definirá la altura máxima a la que llegarán esas regiones.
 
-Con esto ya tienes el ruido biológico de un planeta sencillo. Puedes cambiar los parámetros a tu gusto.
+Con esto ya tienes el ruido biológico de un planeta sencillo. Tambíén se pueden configurar los biomas ajustando los BiomeParameters, estos tendrán efectos directos en como se ve el planeta y también en la distribución de la vegetación. Puedes cambiar los parámetros a tu gusto.&#x20;
 
 ### 5. Océano
 
-Agrega un océano a tu planeta, debes marcar la casilla "Has Ocean" del CosmicPlanet si no lo estaba y cambiar el nivel del mar con "Sea Level Km", con 0.001 debería ser suficiente. En el OceanComponent asigna el Ocean Material, busca Cosmic Ocean. Si te acercas al mar podrás ver el movimiento de las olas.
+Agrega un océano a tu planeta, debes marcar la casilla "Has Ocean" del CosmicPlanet si no lo estaba y cambiar el nivel del mar con "Sea Level Km", puedes mover dinámicamente el valor para ver el resultado. En el OceanComponent asigna el Ocean Material, busca Cosmic Ocean. Si te acercas al mar podrás ver el movimiento de las olas.
 
 ![Ocean](.gitbook/assets/tierra.png) ![OceanClose](.gitbook/assets/oceanocerca.png)
 
@@ -55,7 +59,7 @@ A continuación, selecciónalo y configúralo como en la siguiente imagen: _(Aju
 
 ### 7. Nave espacial
 
-Toca aterrizar en el planeta. Para ello añade a la escena `BP_CosmicSpaceShip` , si no te aparece ese nombre exacto puedes navegar a la carpeta del plugin desde el Content Browser  `Engine` -> `Plugins` -> `CosmicArchictect` -> `Plugins` y arrastrarlo directamente a la escena. Coloca la nave cerca del planeta.
+Toca aterrizar en el planeta. Para ello añade a la escena `BP_CosmicSpaceShip` , si no te aparece ese nombre exacto puedes navegar a la carpeta del plugin desde el Content Browser  `Engine` -> `Plugins` -> `CosmicArchictect` -> `Blueprints`->`Ships` y arrastrarlo directamente a la escena. Coloca la nave cerca del planeta.
 
 ![AddSpaceship](.gitbook/assets/añadirspaceship.png)
 
@@ -63,18 +67,22 @@ Ahora dale al botón de play e intenta aterrizar o dar alguna vuelta, usa WASD p
 
 ### 8. Órbita
 
-Duplica tu planeta, y añadele al otro un componente Cosmic Orbit. Asigna el el componente el planeta al que orbitará y aumenta el Semi Major Axis Km. Si le das a play verás que ese planeta orbita alrededor del otro. También puedes aumentar el parámetro Spin Speed para hacer que el planeta rote sobre sí mismo.
+Duplica tu planeta (seleccionalo y pulsa Ctrl + D), y añadele un componente Cosmic Orbit.&#x20;
 
-![AddOrbit](.gitbook/assets/añadirorbit.png)
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+
+
+Asigna en el componente el planeta al que orbitará en el apartado ParentBody y aumenta el valor Semi Major Axis Km para aumentar el tamaño de la órbita. Si le das a play verás que ese planeta orbita alrededor del otro.
 
 ### 9. Vegetación
 
-En el FoliageSpawnerComponent, asigna al Foliage Collection BigPlanetFoliage`eBigPlanetFoliage`, una estructura de datos con mallas y parámetros de generación del follaje. Si te acercas al planeta podrás ver plantas y rocas aparecer.
+En el FoliageSpawnerComponent del planeta, asigna al Foliage Collection `BigPlanetFoliage`, una estructura de datos con mallas y parámetros de generación del follaje. Si te acercas al planeta podrás ver plantas y rocas aparecer.
 
-![Foliage](.gitbook/assets/foliage.png)
+<figure><img src=".gitbook/assets/Foliage_planet.jpg" alt=""><figcaption></figcaption></figure>
 
 ### 10. Anillos
 
-Puedes añadir anillos a tu planeta añadiendo el componente Cosmic Ring, y cambiando el material del componente a `M_CosmicRing`.
+Puedes añadir anillos a tu planeta añadiendo el componente Cosmic Ring, y configurar el Inner Radius y Outer Radius para definir su rango, además del número de sectores visibles de asteroides y su tamaño.
 
-![Saturn](.gitbook/assets/saturno.png)
+<figure><img src=".gitbook/assets/planeta_asteriodes.jpg" alt=""><figcaption></figcaption></figure>
