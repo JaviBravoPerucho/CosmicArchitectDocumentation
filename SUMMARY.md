@@ -6,6 +6,7 @@
 
 * [Crea tu primer Planeta](GetStartedPlanet.md)
 * [Crea un Sistema Planetario](GetStartedSystem.md)
+* [Escenas demostración](guias-de-inicio/escenas-demostracion.md)
 
 ## Explicación de clases y componentes
 
