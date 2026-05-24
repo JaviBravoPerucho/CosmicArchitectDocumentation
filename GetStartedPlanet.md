@@ -26,7 +26,7 @@ Activa el modo wireframe para ver cómo funciona el clipmap.
 
 Vuelve a poner el modo Lit, y busca el apartado Materials del planeta. Selecciona la pestaña de None del Base Material y busca en la lupa `Cosmic Moon Material`. Puedes cambiar los colores del planeta en el apartado Color a tonos grisáceos para imitar los de una luna. También tienes la opción de ponerle un material de gigante de gas (Cosmic Gas Giant) o del sol (Cosmic Sun).
 
-![Moon](.gitbook/assets/luna.png) ![Moon](.gitbook/assets/gasgiant.png) ![Moon](.gitbook/assets/sol.png)
+![Moon](.gitbook/assets/luna.png) ![Gas Giant](.gitbook/assets/gasgiant.png) ![Sun](.gitbook/assets/sun.jpg)
 
 ### 4. Ruido
 
@@ -39,7 +39,7 @@ Llámalo `NoisePlanet`. Ahora arrástralo al atributo Noise Class de tu planeta.
 * **Frequency:** entre 2 y 5. Esto definirá la frecuencia de regiones altas en tu mundo.
 * **Amplitude:** 5.000 y 10.000. Esto definirá la altura máxima a la que llegarán esas regiones.
 
-Con esto ya tienes el ruido biológico de un planeta sencillo. Tambíén se pueden configurar los biomas ajustando los BiomeParameters, estos tendrán efectos directos en como se ve el planeta y también en la distribución de la vegetación. Puedes cambiar los parámetros a tu gusto.&#x20;
+Con esto ya tienes el ruido biológico de un planeta sencillo. Tambíén se pueden configurar los biomas ajustando los BiomeParameters, estos tendrán efectos directos en como se ve el planeta y también en la distribución de la vegetación. Puedes cambiar los parámetros a tu gusto, o poner por ejemplo el ruido ya configurado Calisto\_Noise.&#x20;
 
 ### 5. Océano
 
