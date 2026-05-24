@@ -3,7 +3,10 @@
 ### 1. Cosmic Planet
 
 * Crea un nuevo Level e instancia una luz direccional si no tiene
-* Añade el objeto Cosmic Planet a tu escena
+* Añade el objeto Cosmic Planet a tu escena buscando en la lupa
+
+<div align="left"><figure><img src=".gitbook/assets/add_planeta.jpg" alt=""><figcaption></figcaption></figure></div>
+
 * A continuación selecciona el planeta (doble click en Outliner)
 
 ### 2. Clipmap
@@ -12,10 +15,9 @@ Activa el modo wireframe para ver cómo funciona el clipmap.
 
 ![Clipmapwireframe](.gitbook/assets/clipmapwireframe.png) Cada cuadrado es un nivel de detalle (LOD, Level Of Detail). Cuando te mueves, la estructura te sigue para que las zonas más alejadas se rendericen con menos vértices. En el `ClipmapComponent` del objeto puedes configurar:
 
-* La resolución base de la malla (Base Resolution)
-* El número de LODs que se crean (Num Levels)
-* El tamaño mínimo de cada triángulo (Min Triangle Size)
-* El tiempo que tarda en refrescar el clipmap (Time To Refresh)
+* La resolución base de la malla, valor recomendado `128`  (Base Resolution)
+* El número de niveles que se crean (Num Levels)
+* El tamaño mínimo de cada triángulo al acercarse (Min Triangle Size)
 * La distancia a la que el clipmap se deja de ver (Height Visibility). Si te alejas mucho del planeta la malla se convierte en estática para ahorrar rendimiento, y este último parámetro define esa distancia.
 
 ![Clipmapconf](.gitbook/assets/clipmapconf.png)
@@ -37,7 +39,7 @@ Con esto ya tienes el ruido biológico de un planeta sencillo. Puedes cambiar lo
 
 ### 5. Océano
 
-Agrega un océano a tu planeta, debes marcar la casilla "Has Ocean" del CosmicPlanet y cambiar el nivel del mar con "Sea Level Km", con 0.001 debería ser suficiente. En el OceanComponent asigna el Ocean Material, busca Cosmic Ocean. Si te acercas al mar podrás ver el movimiento de las olas.
+Agrega un océano a tu planeta, debes marcar la casilla "Has Ocean" del CosmicPlanet si no lo estaba y cambiar el nivel del mar con "Sea Level Km", con 0.001 debería ser suficiente. En el OceanComponent asigna el Ocean Material, busca Cosmic Ocean. Si te acercas al mar podrás ver el movimiento de las olas.
 
 ![Ocean](.gitbook/assets/tierra.png) ![OceanClose](.gitbook/assets/oceanocerca.png)
 
@@ -53,7 +55,7 @@ A continuación, selecciónalo y configúralo como en la siguiente imagen: _(Aju
 
 ### 7. Nave espacial
 
-Toca aterrizar en el planeta. Para ello añade a la escena `BP_CosmicSpaceShip` y coloca la nave cerca del planeta.
+Toca aterrizar en el planeta. Para ello añade a la escena `BP_CosmicSpaceShip` , si no te aparece ese nombre exacto puedes navegar a la carpeta del plugin desde el Content Browser  `Engine` -> `Plugins` -> `CosmicArchictect` -> `Plugins` y arrastrarlo directamente a la escena. Coloca la nave cerca del planeta.
 
 ![AddSpaceship](.gitbook/assets/añadirspaceship.png)
 
@@ -67,7 +69,7 @@ Duplica tu planeta, y añadele al otro un componente Cosmic Orbit. Asigna el el 
 
 ### 9. Vegetación
 
-En el FoliageSpawnerComponent, asigna al Foliage Collection `Earth Foliage`, una estructura de datos con mallas y parámetros de generación del follaje. Si te acercas al planeta podrás ver plantas y rocas aparecer.
+En el FoliageSpawnerComponent, asigna al Foliage Collection BigPlanetFoliage`eBigPlanetFoliage`, una estructura de datos con mallas y parámetros de generación del follaje. Si te acercas al planeta podrás ver plantas y rocas aparecer.
 
 ![Foliage](.gitbook/assets/foliage.png)
 
