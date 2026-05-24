@@ -12,9 +12,7 @@ Ahí encontrarás una escena con un planeta ya configurado y un Cosmic Player, d
 
 Escena Planet:
 
-<figure><img src="../.gitbook/assets/Escena_planeta.jpg" alt=""><figcaption></figcaption></figure>
-
-
+<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 ### Sistema solar
 
