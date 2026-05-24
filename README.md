@@ -12,10 +12,10 @@ Este plugin permite generar planetas procedimentalmente con sistemas de ruido av
 
 ## Instalación
 
-
+Github: [https://github.com/narratech/TFG-Bravo-Perez-Rubio](https://github.com/narratech/TFG-Bravo-Perez-Rubio)
 
 1. Instala Unreal Engine 5.7, recomendamos la versión 5.7.4.
-2. Copia el plugin ya empaquetado (Release en Github) a la carpeta donde tengas el motor instalado `5.7/Engine/Plugins/Marketplace` (opción recomendada para probar el plugin). También puedes copiar el código fuente en una carpeta llamada `Plugins` en tu proyecto si vas a compilarlo (necesitas Visual Studio configurado).
+2. Copia el plugin ya empaquetado (Release en Github) a esta ruta donde tengas el motor instalado `5.7/Engine/Plugins/Marketplace` (opción recomendada para probar el plugin). También puedes copiar el código fuente en una carpeta llamada `Plugins` en tu proyecto si vas a compilarlo (necesitas Visual Studio configurado).
 3. Crea un proyecto de cualquier tipo o usa uno que ya tengas y activa el plugin: `Edit` -> `Plugins` -> `Cosmic Architect`
 4. Activa el contenido de plugin y motor si no lo tienes para poder ver las escenas y acceder al contenido de Cosmic Architect.
 
